@@ -1,6 +1,6 @@
 exports.getSuccessPage= (req,res,next)=>{
 
-    res.render('success',{
+    res.render('shop/success',{
         pageTitle:'Success !',
         path:'/contact-us'
     })

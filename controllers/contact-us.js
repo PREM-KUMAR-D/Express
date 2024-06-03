@@ -1,6 +1,6 @@
 exports.getContactUsPage= (req,res,next)=>{
 
-    res.render('contact-us',{
+    res.render('shop/contact-us',{
         pageTitle:'Contact-Us',
         path:'/contact-us'
     });
